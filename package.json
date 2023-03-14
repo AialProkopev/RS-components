@@ -8,6 +8,7 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint src/**/*.ts{,x}",
+    "lint:fix": "eslint --fix src/**/*.ts{,x}",
     "format": "prettier --write src/**/*.ts{,x}",
     "prepare": "husky install"
   },
