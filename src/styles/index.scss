@@ -34,6 +34,9 @@ main {
     gap: 2rem;
     .navigation__item {
       color: $sub-color;
+      &:active {
+        color: $error-color;
+      }
       &_active {
         color: $main-color;
       }

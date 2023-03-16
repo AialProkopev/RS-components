@@ -7,7 +7,7 @@ interface isActiveLink {
 
 class Header extends React.Component {
   isActiveLink = ({ isActive }: isActiveLink) =>
-    isActive ? 'navigation__item_active' : 'navigation__item';
+    isActive ? 'navigation__item navigation__item_active' : 'navigation__item';
   render() {
     return (
       <header className="header">
