@@ -14,3 +14,12 @@ body {
   min-height: 100vh;
   background: $bg-color;
 }
+#root {
+  min-height: 100vh;;
+  display: grid;
+  grid-template-areas: "header" "main";
+  grid-template-rows: 10% auto;
+}
+main {
+  grid-area: main;
+}
