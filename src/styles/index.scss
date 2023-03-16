@@ -43,7 +43,6 @@ main {
     }
   }
 }
-
 .error-page {
   display: flex;
   justify-content: center;
@@ -61,5 +60,29 @@ main {
   &__message {
     text-align: center;
     font-size: 2rem;
+  }
+}
+.main-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-bar {
+  height: 2.5rem;
+  width: 18rem;
+  border: 2px solid $sub-color;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.5rem;
+  &__input {
+    width: 100%; 
+    height: 100%;
+    background: none;
+    color: $text-color;
+    font-weight: 500;
+    border: none;
+    font-size: 1.5rem;
   }
 }
