@@ -9,6 +9,5 @@ describe('SearchBar', () => {
     fireEvent.change(screen.getByRole('searchbox'), {
       target: { value: 'React' },
     });
-    screen.debug();
   });
 });
