@@ -21,6 +21,10 @@ class Header extends React.Component {
       this.setState({
         currentPage: 'About Us Page',
       });
+    } else {
+      this.setState({
+        currentPage: '404 Page',
+      });
     }
   }
 
